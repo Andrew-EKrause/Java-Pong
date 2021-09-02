@@ -2,7 +2,7 @@
 
 ## Description
 **_Simple Java Pong Game that uses Keyboard Controls_** <br/>
-This Java program is NOT like the traditional version of pong that many individuals know. There is not a two-paddle system in this game. Instead, there is one blue paddle at the bottom of the screen that can slide across the bottom of the screen when the user hits certain keys on the computer keyboard. When the user hits the `J` key on the keyboard, the paddle will slide to the left. When the user hits the `K` key on the keyboard, the paddle will slide to the right. The goal of the game is to prevent a ball that is bouncing on the screen from getting past the paddle on the bottom of the screen. Each time the ball comes in contact with the paddle, it wil bounce off of the paddle and ricochet off different parts of the game window before making its way back down towards the bottom of the screen. Each time the user prevents the ball from getting past the paddle, that is counted as a "Bounce". The goal of the game is to get as many bounces as you can! Every five bounces, the speed of the moving ball will increase. The speed increase of the bouncing ball makes the game gradually more difficult. Keep in mind that if you reach a certain speed, the game may glitch. This happens when you reach a speed level of 18 or higher. The speed level is also tracked and shown on the upper lefthand corner of the game window. If the ball gets past the paddle at the bottom of the screen, a game over message will appear on the screen. The user can rerun the program to play the game again.
+This Java program is NOT like the traditional version of pong that many individuals know. There is not a two-paddle system in this game. Instead, there is one blue paddle at the bottom of the screen that can slide across the bottom of the screen when the user hits certain keys on the computer keyboard. When the user hits the `J` key on the keyboard, the paddle will slide to the left. When the user hits the `K` key on the keyboard, the paddle will slide to the right. The goal of the game is to prevent a ball that is bouncing on the screen from getting past the paddle on the bottom of the screen. Each time the ball comes in contact with the paddle, it wil bounce off of the paddle and ricochet off different parts of the game window before making its way back down towards the bottom of the screen. Each time the user prevents the ball from getting past the paddle, that is counted as a "Bounce". The goal of the game is to get as many bounces as you can! Every five bounces, the speed of the moving ball will increase. The speed increase of the bouncing ball makes the game gradually more difficult. Keep in mind that if you reach a certain speed, the game may glitch. This happens when you reach a speed level of 18 or higher. The speed level is also tracked and shown on the upper lefthand corner of the game window. If the ball gets past the paddle at the bottom of the screen, a game over message will appear on the screen. The user can rerun the program to play the game again. The pong game in this repository was created as a project for my Software Design I (CS 120) class at the University of Wisconsin - La Crosse. I created my pong game using the Java programming language as well as an Integrated Development Environment (IDE) called Eclipse. In order to view this project, I would recommend installing the Eclipse IDE as well as Java if you do not already have these tools on your computer. If you wish simply to view the code, a simple text editor can be used.
 
 ###### Picture of a the Java Pong Game Window
 ADD IMAGE HERE
@@ -11,7 +11,6 @@ ADD IMAGE HERE
 **Resources for Project:**
 - Java
 - Eclipse (IDE)
-- YouTube Video on Java Pong Game: https://www.youtube.com/watch?v=xIqeK2hzx1I
 
 # Running / Viewing the Project
 ## Eclipse (IDE)
@@ -45,10 +44,12 @@ ADD IMAGE HERE
 6. In your opened terminal, navigate to the location where you opened the downloaded zip file and make sure you are inside of the "Java-Pong-master" folder. (If you are unsure of command line commands, see the resources provided bellow.)<br/>
    -Linux and Max: http://mally.stanford.edu/~sr/computing/basic-unix.html<br/>
    -Windows: https://blogs.umass.edu/Techbytes/2014/11/14/file-navigation-with-windows-command-prompt/
-7. Inside the "Java-Pong-master" folder on your terminal, type the following command: `javac Driver.java`. It is important that you include the "c" at the end of "java" (no spaces).
-8. After typing the command above, type this command: `java Driver.java`. Do NOT include a "c" at the end of "java" in this command.
-9. After running the command in the previous step, a separate window should open with the Java Pong Game running on it.
-10. Below, see the `Java Pong Game Controls` so that you know how to play the game.
+7. Inside the "Java-Pong-master" folder on your terminal, navigate to the "src" folder.
+8. Inside of the "src" folder, type the following command: `javac Driver.java`. It is important that you include the "c" at the end of "java" (no spaces).
+9. After typing the command above, type this command: `java Driver.java`. Do NOT include a "c" at the end of "java" in this command.
+10. After running the command in the previous step, a separate window should open with the Java Pong Game running on it.
+11. If you ever want to rereun the game on your terminal, type the `java Driver.java` command.
+12. Below, see the `Java Pong Game Controls` so that you know how to play the game.
 
 ## Java Pong Game Controls
 1. To move the paddle to the `left`, hit the `J` key on your computer keyboard.
