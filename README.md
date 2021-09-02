@@ -2,7 +2,7 @@
 
 ## Description
 **_Simple Java Pong Game that uses Basic AI_** <br/>
-The perfect skip list is a simple data structure that can help reduce the amount of time taken to locate a particular data item in a list of items. The data structure is useful in locating an item in large lists of information that would otherwise take a substantial amount of computational time with simple search algorithms. When a search algorithm is applied to the perfect skip list, the program first compares a value, such as an integer value, to the top part of the data structure. Depending on the value, the program either moves to a lower level of the skip list or continues traversing across it. A way to think about a perfect skip list is a simple linked list with integers/values stored in it at the very bottom level. From the bottom level, node references build up in such a way that there are more spread out node references on the levels above the lowest level. A `picture of a perfect skip list` is included below this description to help visualize the data structure. To learn more about perfect skip lists, click the link under the "Resources for Project" section. The perfect skip list included in this repository was created as a project for my Software Design III (CS 340) class at the University of Wisconsin - La Crosse. I created my perfect skip list using the Java programming language as well as an Integrated Development Environment (IDE) called Eclipse. In order to view this project, I would recommend installing the Eclipse IDE as well as Java if you do not already have these tools on your computer. If you wish simply to view the code, a simple text editor can be used.
+Description...
 
 ###### Picture of a the Java Pong Game Window
 ADD IMAGE HERE
@@ -11,7 +11,7 @@ ADD IMAGE HERE
 **Resources for Project:**
 - Java
 - Eclipse (IDE)
-- YouTube Video on Java Pong Game: https://www.javatpoint.com/skip-list-in-data-structure
+- YouTube Video on Java Pong Game: https://www.youtube.com/watch?v=xIqeK2hzx1I
 
 # Running / Viewing the Project
 ## Eclipse (IDE)
