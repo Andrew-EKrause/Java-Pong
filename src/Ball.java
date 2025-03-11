@@ -28,7 +28,7 @@ public class Ball
 	// for ball object
 	private Oval ball;
 	private JLabel end;
-	private int ballSize = 20;
+	private int ballSize = 30;
 	private int batLength = 100;
 	private int ballSpeed = 1;
 	private int upRight = 1;
